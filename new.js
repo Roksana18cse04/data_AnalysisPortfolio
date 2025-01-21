@@ -88,7 +88,7 @@ const projects = [
         id: 1,
         title: "Job Market Trending Job Analysis",
         description: "A data analysis project focusing on trending job markets, utilizing Python and data analysis tools to uncover insights into job demand across various industries.",
-        thumbnail: "./image copy 3.png",
+        thumbnail: "image copy 3.png",
         screenshots: [
             "./images/jobmarket1.png",
             "./images/jobmarket2.png"
