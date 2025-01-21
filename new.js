@@ -88,7 +88,7 @@ const projects = [
         id: 1,
         title: "Job Market Trending Job Analysis",
         description: "A data analysis project focusing on trending job markets, utilizing Python and data analysis tools to uncover insights into job demand across various industries.",
-        thumbnail: "/image copy 3.png",
+        thumbnail: "./image copy 3.png",
         screenshots: [
             "./images/jobmarket1.png",
             "./images/jobmarket2.png"
@@ -100,7 +100,7 @@ const projects = [
         id: 2,
         title: "Netflix Movie Data Analysis",
         description: "Analyzed Netflix movie data using Python and visualization tools to gain insights into trends, genres, and viewer preferences.",
-        thumbnail: "/image.png",
+        thumbnail: "./image.png",
         screenshots: [
             "./images/netflix1.png",
             "./images/netflix2.png"
@@ -112,7 +112,7 @@ const projects = [
         id: 3,
         title: "SQL and Python Sales Data Insight Analysis",
         description: "A project that utilizes SQL and Python to analyze datasets, perform data cleaning, and generate insights for business decisions.",
-        thumbnail: "/image copy.png",
+        thumbnail: "./image copy.png",
         screenshots: [
             "./images/sqlpython1.png",
             "./images/sqlpython2.png"
@@ -124,7 +124,7 @@ const projects = [
         id: 4,
         title: "Power BI Dashboard Design",
         description: "Designed interactive dashboards in Power BI to visualize key business metrics and provide actionable insights.",
-        thumbnail: "/image copy 2.png",
+        thumbnail: "./image copy 2.png",
         screenshots: [
             "./images/powerbi1.png",
             "./images/powerbi2.png"
