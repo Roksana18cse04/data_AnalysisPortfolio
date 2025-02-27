@@ -273,74 +273,107 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   }
 
-/* About Section Styles */
+/* About Section Styles *//* About Me Section Styling */
 .about-section {
-    background-color: #f8f9fa;
-    border-radius: 15px;
-    padding: 60px 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #1a1a1a, #000000);
+  color: #ffffff;
+  padding: 80px 0;
 }
 
-.about-section .section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #d6dce2;
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
 }
 
-.about-section .intro-text {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color:#d6dce2;
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
 }
 
-.about-section .skill-block {
-    margin-bottom: 20px;
+.skill-block {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-section .skill-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #7d8b99;
-    margin-bottom: 10px;
+.skill-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.about-section .skill-block p {
-    font-size: 1rem;
-    color: #d6dce2;
+.skill-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ff7e5f;
+  margin-bottom: 0.75rem;
 }
 
-.about-section .closing-text {
-    font-size: 1.3rem;
-    line-height: 1.8;
-    color: #d6dce2;
-    margin-top: 20px;
+.skill-block p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d0d0d0;
 }
 
-.about-section img {
-    max-width: 250px;
-    border-radius: 50%;
-    border: 5px solid #007bff;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+.closing-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-top: 1.5rem;
 }
 
-.about-section img:hover {
-    transform: scale(1.05);
+.btn-primary {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-section .btn-primary {
-    background-color: #007bff;
-    border: none;
-    padding: 10px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
 }
 
-.about-section .btn-primary:hover {
-    background-color: #0056b3;
+/* Profile Image Styling */
+.rounded-circle {
+  border: 5px solid rgba(255, 126, 95, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.rounded-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 126, 95, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+      font-size: 2rem;
+  }
+
+  .intro-text, .skill-block p, .closing-text {
+      font-size: 1rem;
+  }
+
+  .skill-title {
+      font-size: 1.2rem;
+  }
+
+  .btn-primary {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+  }
+}
   /*-----------------------------------*\
     #PROJECT SECTION
   \*-----------------------------------*/
